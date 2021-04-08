@@ -37,7 +37,14 @@ class DoubanSpider(scrapy.Spider):
             print(item['title'])
             #打印书名。
             yield item
+<<<<<<< Updated upstream
 
 
             ####################################
             #yield item是把获得的item传递给引擎。
+=======
+            #yield item是把获得的item传递给引擎。
+            
+
+            #主程序的位置不能动，严格按照scrapy的程序框架设置
+>>>>>>> Stashed changes
