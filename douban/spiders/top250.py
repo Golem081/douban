@@ -37,4 +37,7 @@ class DoubanSpider(scrapy.Spider):
             print(item['title'])
             #打印书名。
             yield item
+
+
+            ####################################
             #yield item是把获得的item传递给引擎。
