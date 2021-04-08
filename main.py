@@ -12,3 +12,5 @@ print(sys.path)
 
 cmdline.execute(['scrapy','crawl','douban'])
 #用execute（）方法，输入运行scrapy的命令。
+
+#main.py作为爬虫框架的入口，如果没有此文件，则需要在window终端通过指令启动。
